@@ -2,17 +2,17 @@ apiVersion: v1
 entries:
   bookinfo:
   - apiVersion: v2
-    created: "2025-06-04T19:25:50.613343+05:30"
+    created: "2025-06-04T19:30:33.890133+05:30"
     description: A Helm chart for Bookinfo microservice
-    digest: e766b781652656e61d983fcd40e1685fed7efcf886d3f8fabc79719682019c42
+    digest: d7d5bac0c65985aa9b65bbe53a216fb3f3a9ffb85a15a00bf75b916a3b239ad9
     maintainers:
     - email: your.email@example.com
       name: Akhil Cheruvalath
     name: bookinfo
     sources:
-    - https://github.com/akhilcheruvalat/bookinfo-source
+    - https://github.com/muralikrishnagk/bookinfo-source
     type: application
     urls:
     - https://muralikrishnagk.github.io/bookinfo-charts/bookinfo-0.1.0.tgz
     version: 0.1.0
-generated: "2025-06-04T19:25:50.612338+05:30"
+generated: "2025-06-04T19:30:33.889224+05:30"
