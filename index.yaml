@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   bookinfo:
   - apiVersion: v2
-    created: "2025-06-06T15:59:48.656967+05:30"
+    created: "2025-06-09T18:13:15.142662+05:30"
     description: A Helm chart for Bookinfo microservice
     digest: 49a3394c99c81c27dc06cae84f47e763bbe376f9e6b904f1707552f17002fe50
     maintainers:
@@ -17,7 +17,21 @@ entries:
     version: 0.1.0
   bookinfo-processor:
   - apiVersion: v2
-    created: "2025-06-06T15:59:48.657355+05:30"
+    created: "2025-06-09T18:13:15.143463+05:30"
+    description: A Helm chart for Bookinfo Processor microservice
+    digest: 951f689ba8e0bceee4b88fb8596cffcfa69636cc67ffa957321f85f44ffd8263
+    maintainers:
+    - email: your.email@example.com
+      name: Akhil Cheruvalath
+    name: bookinfo-processor
+    sources:
+    - https://github.com/muralikrishnagk/bookinfo-source
+    type: application
+    urls:
+    - https://muralikrishnagk.github.io/bookinfo-charts/bookinfo-processor-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    created: "2025-06-09T18:13:15.143116+05:30"
     description: A Helm chart for Bookinfo Processor microservice
     digest: ba4e1ae87f669c79eec50eb1d505fa9d1cccd20ee8f4af25e145de38a44d70b7
     maintainers:
@@ -32,7 +46,21 @@ entries:
     version: 0.1.0
   bookinfo-service:
   - apiVersion: v2
-    created: "2025-06-06T15:59:48.657623+05:30"
+    created: "2025-06-09T18:13:15.144261+05:30"
+    description: A Helm chart for Bookinfo-Service microservice
+    digest: 6a80d4012bbc8212097650956693c0799baf135cbb3aaf62f5c44074a9904cfd
+    maintainers:
+    - email: your.email@example.com
+      name: Akhil Cheruvalath
+    name: bookinfo-service
+    sources:
+    - https://github.com/muralikrishnagk/bookinfo-source
+    type: application
+    urls:
+    - https://muralikrishnagk.github.io/bookinfo-charts/bookinfo-service-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    created: "2025-06-09T18:13:15.143899+05:30"
     description: A Helm chart for Bookinfo-Service microservice
     digest: 281e3d52ab62dea00b2b64dca57c67c00fb95c4490d01c4e68d66bb07497ceee
     maintainers:
@@ -45,4 +73,4 @@ entries:
     urls:
     - https://muralikrishnagk.github.io/bookinfo-charts/bookinfo-service-0.1.0.tgz
     version: 0.1.0
-generated: "2025-06-06T15:59:48.655859+05:30"
+generated: "2025-06-09T18:13:15.14136+05:30"
