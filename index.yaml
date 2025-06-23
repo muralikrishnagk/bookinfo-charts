@@ -129,4 +129,4 @@ entries:
     urls:
     - bookinfo-service-0.1.0.tgz
     version: 0.1.0
-generated: "2025-06-23T17:47:17.578443+05:30"
+generated: "2025-06-23T17:47:17.578443+05:30" # Manually updated for 0.1.3 charts
